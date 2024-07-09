@@ -12,7 +12,7 @@ import textSum from "../assets/img/textSum.png"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import ProjectCarousel from "./CarouselProjects";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // import 'animate.css';
 // import TrackVisibility from 'react-on-screen';
@@ -61,6 +61,20 @@ export const Projects = () => {
 
     ];
 
+    const quotes = ["Every project is a playground, and every bug just adds to the fun.",
+"Tackling projects with a coffee in one hand and a stack overflow page in the other.",
+"Coding projects like cooking—sometimes it’s a recipe, sometimes it’s an experiment.",
+"Each project a new adventure, every bug a plot twist.",
+"Project by project, we level up—think of it as a game where you only win by learning."]
+
+    const [quote, setQuote] = useState("");
+
+    useEffect(()=>{
+        const randomQuote = quotes[Math.floor(Math.random()* quotes.length)]
+        setQuote(randomQuote)
+
+    },[]);
+
     const responsive = {
         superLargeDesktop: {
             breakpoint: { max: 4000, min: 3000 },
@@ -71,11 +85,11 @@ export const Projects = () => {
             items: 3
         },
         tablet: {
-            breakpoint: { max: 1024, min: 464 },
+            breakpoint: { max: 1024, min: 500 },
             items: 2
         },
         mobile: {
-            breakpoint: { max: 464, min: 0 },
+            breakpoint: { max: 500, min: 0 },
             items: 1
         }
     };
@@ -91,7 +105,7 @@ export const Projects = () => {
                 <Row>
                     <Col>
                         <h2>Projects</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>{quote}</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first" onSelect={handleSelect}>
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
@@ -103,10 +117,10 @@ export const Projects = () => {
                             </Nav>
                             <Tab.Content id="slideInUp">
                             <Tab.Pane eventKey="first">
-                                <ProjectCarousel data={projects_SDE} responsive={responsive} />
+                                <ProjectCarousel data={projects_SDE} responsive={responsive} infinite={false} />
                             </Tab.Pane>
                             <Tab.Pane eventKey="second">
-                                <ProjectCarousel data={projects_Data} responsive={responsive} />
+                                <ProjectCarousel data={projects_Data} responsive={responsive} infinite={false}/>
                             </Tab.Pane>
                         </Tab.Content>
                         </Tab.Container>

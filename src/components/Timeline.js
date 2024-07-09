@@ -47,6 +47,7 @@ export const Timeline = () => {
                 <Row>
                     <Col>
                         <h2>Timeline</h2>
+                        <p>Growing through code, marking milestones along the way.</p>
                     </Col>
                     <Row>
                         <VerticalTimeline className="timeline-edge">

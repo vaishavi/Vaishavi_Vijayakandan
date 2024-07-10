@@ -1059,22 +1059,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
     .banner h1 {
-      font-size: 50px;
+      font-size: 45px;
 
     }
   
     .banner h2 {
-      font-size: 30px;
+      font-size: 25px;
 
     }
   
     .banner h3 {
-      font-size: 20px;
+      font-size: 15px;
 
     }
   
     .banner p {
-      font-size: 16px;
+      font-size: 14px;
     }
   
     .banner button {
@@ -1086,7 +1086,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     }
   
     .about p {
-      font-size: 16px;
+      font-size: 14px;
     }
   
     .project h2 {
@@ -1094,7 +1094,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     }
   
     .project p {
-      font-size: 16px;
+      font-size: 14px;
 
     }
   
@@ -1110,6 +1110,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   
     .contact h2 {
       font-size: 30px;
+    }
+
+    .timeline p {
+      font-size: 14px;
+    }
+
+    .timeline h4 {
+      font-size: 20px;
+
+    }
+
+    .timeline h5{
+
+      font-size: 15px;
     }
   
     .contact form label {

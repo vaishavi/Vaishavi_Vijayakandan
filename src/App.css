@@ -987,8 +987,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid #f5c6cb;
 }
 
-
-/***** MOBILE VIEW ************/
 /***** MOBILE VIEW ************/
 @media only screen and (min-width: 360px) and (max-width: 950px) {
   .brand-logo {
@@ -1022,8 +1020,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .banner {
     padding: 1rem;
-    margin-top: 5rem;
-    margin-left: 1rem;
+    margin-top: 6rem;
   }
 
   .banner-main-img {
@@ -1036,10 +1033,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     background-color: #121212;
     position: absolute;
     top: 100%;
-    right: 0%;
-    width: 40%;
+    right:0%;
+    width: fit-content;
     padding: 1rem;
-    text-align: left;
+    text-align: right;
   }
 
   nav.navbar .navbar-nav .nav-link {

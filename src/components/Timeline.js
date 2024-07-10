@@ -59,6 +59,7 @@ export const Timeline = () => {
                             date={item.timing}
                             dateClassName="date"
                             icon={<Icon size={60} className="time-line-icon"/>}
+                           
                         >
                             <h4 className="vertical-timeline-element-title">{item.title}</h4>
                             <h5 id="description">{item.institution}</h5>

@@ -53,12 +53,10 @@ export const Banner = () => {
     return (
         <section className="banner" id="home">
             <Container>
-                <Row className="align-items-center">
+                <Row className="align-items-center justify-content-center">
                     <Col className="banner-margin" xs={12} md={5} xl={7}>
                         <h3><span className="welcome">Welcome to my Portfolio!</span></h3>
                         <h2>{"Hi, I'm Vaishavi Vijayakandan,"}<br /><span className="wrap">{text}</span></h2>
-                    
-                        {/* <button onClick={() => console.log("connect")}>Let's connect<ArrowRightCircle size={25}></ArrowRightCircle></button> */}
                         <div className="social-icon">
                             <a href="https://www.linkedin.com/in/vaishavi-vijayakandan/"><img src={navIcon1}></img></a>
                             <a href="https://github.com/vaishavi"><img src={navIcon2}></img></a>

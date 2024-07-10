@@ -104,7 +104,7 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h2>Projects</h2>
+                        <h2>Project</h2>
                         <p>{quote}</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first" onSelect={handleSelect}>
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">

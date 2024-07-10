@@ -1154,11 +1154,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 95px;
   }
   #basic-navbar-nav{
-    margin-left: 1rem;
+    margin-left: 5rem;
 
   }
   .nav.navbar .navbar-nav .nav-link.navbar-link {
     padding: 0px;
+  }
+
+  .banner{
+    padding: 3rem;
   }
  
  .navbar .nav-link {
@@ -1217,7 +1221,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   .banner h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .banner h3 {

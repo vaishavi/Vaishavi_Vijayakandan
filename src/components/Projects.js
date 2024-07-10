@@ -85,11 +85,11 @@ export const Projects = () => {
             items: 3
         },
         tablet: {
-            breakpoint: { max: 1024, min: 500 },
+            breakpoint: { max: 1024, min: 600 },
             items: 2
         },
         mobile: {
-            breakpoint: { max: 500, min: 0 },
+            breakpoint: { max: 600, min: 0 },
             items: 1
         }
     };

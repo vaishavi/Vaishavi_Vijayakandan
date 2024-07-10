@@ -283,7 +283,7 @@ nav.navbar .navbar-toggler-icon:after {
   top: 8px;
 }
 
-nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+/* nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   transform: rotate(45deg);
   background-color: #fff;
   height: 2px;
@@ -297,7 +297,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
-}
+} */
 
 .vvd {
   font-weight: 400;
@@ -872,7 +872,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 100%;
   max-width: 1000px;
-  /* Limit the max width of the form */
   margin: 0 auto;
 }
 
@@ -1154,17 +1153,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 95px;
   }
   #basic-navbar-nav{
-    margin-left: 5rem;
+    margin-left: 1.25rem;
 
   }
   .nav.navbar .navbar-nav .nav-link.navbar-link {
     padding: 0px;
   }
+  
 
-  .banner{
-    padding: 3rem;
-  }
- 
  .navbar .nav-link {
    padding-left: 5px;
    padding-right: 5px;
@@ -1194,8 +1190,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   .banner {
-    padding: 1rem;
-    margin-top: 6rem;
+    padding: 3rem;
+    margin-top: 4rem;
   }
 
   .banner-main-img {

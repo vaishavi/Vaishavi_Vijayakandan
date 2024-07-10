@@ -45,11 +45,11 @@ export const NavBar = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : true)} id="navbar-toggle" />
         <Navbar.Collapse id="basic-navbar-nav">
-    <Nav className="me-auto" onSelect={() => setExpanded(false)}>
+    <Nav className="me-auto" onSelect={() => setExpanded(false)} id="navbar-first-set">
         <Nav.Link href="#home" className="navbar-link">Home</Nav.Link>
         <Nav.Link href="#about" className="navbar-link">About</Nav.Link>
         <Nav.Link href="#skills" className="navbar-link">Skills</Nav.Link>
-        <Nav.Link href="#projects" className="navbar-link">Project</Nav.Link>
+        <Nav.Link href="#projects" className="navbar-link">Projects</Nav.Link>
         <Nav.Link href="/Vaishavi_Vijayakandan_SDE.pdf" className="navbar-link">Resume</Nav.Link>
     </Nav>
     <Nav onSelect={() => setExpanded(false)}>

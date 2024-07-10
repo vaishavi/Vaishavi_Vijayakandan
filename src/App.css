@@ -822,7 +822,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .timeline h2 {
   text-align: center;
   margin-bottom: 2rem;
-  font-weight: 900;
+  font-weight: 700;
+  font-size: 45px;
 }
 
 .timeline h4{
@@ -863,6 +864,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .contact h2{
   margin-bottom: 30px;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
 }
 
 
@@ -1064,13 +1068,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     }
   
     .banner h2 {
-      font-size: 25px;
-
+      font-size: 35px;
     }
   
     .banner h3 {
       font-size: 15px;
-
     }
   
     .banner p {
@@ -1088,6 +1090,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     .about p {
       font-size: 14px;
     }
+
+    .skill h2{
+      font-size: 35px;
+    }
+
+    .skill p{
+      font-size: 14px;
+    }
   
     .project h2 {
       font-size: 35px;
@@ -1095,7 +1105,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   
     .project p {
       font-size: 14px;
-
     }
   
     .proj-txtx h4 {
@@ -1105,11 +1114,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   
     .proj-txtx span {
       font-size: 14px;
-
     }
   
     .contact h2 {
-      font-size: 30px;
+      font-size: 35px;
     }
 
     .timeline p {
@@ -1118,12 +1126,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
     .timeline h4 {
       font-size: 18px;
-
     }
 
     .timeline h5{
-
       font-size: 13px;
+    }
+
+    .timeline h2 {
+      font-size: 35px;
     }
   
     .contact form label {

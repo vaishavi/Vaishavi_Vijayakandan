@@ -9,6 +9,7 @@ import anamoly from "../assets/img/AircraftAnomoly.png";
 import neuralNetwork from "../assets/img/neuralNetworkStudy.png";
 import airBnb from "../assets/img/AirBNB.png"
 import textSum from "../assets/img/textSum.png"
+import portfolio from "../assets/img/portfolioImg.png"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import ProjectCarousel from "./CarouselProjects";
@@ -20,6 +21,11 @@ export const Projects = () => {
   // State tab1 and tab2 // default tab1
   const [tab, setTab]=useState('first');
     const projects_SDE = [
+        {
+            title: "Personal Portfolio",
+            description: "A sleek and personalized portfolio website designed to showcase my professional and project profiles. Built using React, this dynamic single-page application offers a smooth user experience with interactive elements and transitions that highlight my skills and work. The site includes a responsive design ensuring optimal viewing across various devices, demonstrating my proficiency in modern web development practices and design principles.",
+            imgUrl: portfolio,
+        },
         {
             title: "Sorting Algorithm Visualizer",
             description: "A dynamic web application that visualizes sorting algorithms like bubble, merge, and quick sort using React for real-time comparisons on diverse datasets. It features smooth animations for clarity and a ChatGPT-powered chatbot for interactive learning, demonstrating advanced web development and AI integration skills.",

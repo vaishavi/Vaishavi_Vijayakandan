@@ -23,7 +23,7 @@ export const Projects = () => {
     const projects_SDE = [
         {
             title: "Personal Portfolio",
-            description: "A sleek and personalized portfolio website designed to showcase my professional and project profiles. Built using React, this dynamic single-page application offers a smooth user experience with interactive elements and transitions that highlight my skills and work. The site includes a responsive design ensuring optimal viewing across various devices, demonstrating my proficiency in modern web development practices and design principles.",
+            description: "A sleek and personalized portfolio website built using React to showcase my professional and project profiles. This dynamic single-page application features a responsive design and interactive elements that highlight my skills, ensuring optimal viewing on various devices and demonstrating modern web development expertise.",
             imgUrl: portfolio,
         },
         {

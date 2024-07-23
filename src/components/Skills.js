@@ -6,7 +6,7 @@ import html from "../assets/img/html.svg";
 import java from "../assets/img/java.svg";
 import javascript from "../assets/img/javascript.svg";
 import sql from "../assets/img/sql.png";
-import clang from "../assets/img/c_lang.png";
+import clang from "../assets/img/c_lang.svg";
 import react from "../assets/img/react.svg";
 import angular from "../assets/img/angularJS.svg";
 import nodeJS from "../assets/img/nodejs.svg";

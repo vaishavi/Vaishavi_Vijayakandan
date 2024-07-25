@@ -8,7 +8,7 @@ import navIcon3 from '../assets/img/nav-icon3.svg'
 
 export const Banner = () => {
 
-    const toRotate = ["Web Developer", "Machine Learning enthusiast", "Full Stack Developer"]
+    const toRotate = ["Full Stack Developer", "Web Developer", "Machine Learning enthusiast" ]
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');

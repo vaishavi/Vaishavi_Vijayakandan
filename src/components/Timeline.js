@@ -34,7 +34,7 @@ export const Timeline = () => {
         },
           {
             id: 4,
-            title: 'Technical Support Specialist - Software Developer',
+            title: 'Software Technical Specialist',
             institution: 'The George Washington University',
             timing: "Feb 2023 – Present",
             category: "Work"

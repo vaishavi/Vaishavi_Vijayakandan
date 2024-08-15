@@ -20,7 +20,7 @@ export const Timeline = () => {
         },
         {
             id: 2,
-            title: 'Senior Software Engineer',
+            title: 'Software Engineer',
             institution: 'Larsen & Toubro InfoTech – India',
             timing: "Aug 2021 - Dec 2022",
             category: "Work"

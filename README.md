@@ -71,6 +71,10 @@ By following these steps, you can deploy your portfolio on Vercel and have it av
 
 If you have suggestions on how to improve the portfolio or find any issues, please feel free to submit an issue or pull request.
 
+## Authors
+
+- **Vaishavi Vijayakandan** - *Contributor* - [VaishaviV](https://github.com/vaishavi)
+
 ## Acknowledgments
 Thanks to the creators and contributors of all the libraries used in this project.
 Special thanks to anyone else who inspired, tested, or helped out.

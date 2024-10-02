@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/Proj1.webp";
-import projImg2 from "../assets/img/project-img2.png";
+import chatAppGif from "../assets/img/chatApp.gif";
+import projImg2 from "../assets/img/FarmerScheme.webp";
 import projImg3 from "../assets/img/Proj3.png";
 import groceryMart from "../assets/img/groceryMart.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -27,9 +27,9 @@ export const Projects = () => {
             imgUrl: portfolio,
         },
         {
-            title: "Sorting Algorithm Visualizer",
-            description: "A dynamic web application that visualizes sorting algorithms like bubble, merge, and quick sort using React for real-time comparisons on diverse datasets. It features smooth animations for clarity and a ChatGPT-powered chatbot for interactive learning, demonstrating advanced web development and AI integration skills.",
-            imgUrl: projImg1,
+            title: "ChatterSphere",
+            description: "Developed and deployed a real-time chat application using React, Node.js, and WebSockets, enabling seamless live communication for users with secure authentication and file-sharing capabilities, resulting in a 25% increase in user engagement through the integration of features like online/offline statuses and auto-scroll for better user experience.",
+            imgUrl: chatAppGif,
         },
         {
             title: "Grocery Price Comparison App",
@@ -40,7 +40,13 @@ export const Projects = () => {
             title: "Data Security Web App",
             description: "A Python and Django-based web application that enhances data security using RSA encryption with Mersenne Primes. Features LSB image steganography combined with XOR for secure data hiding and includes a robust two-factor verification system.",
             imgUrl: projImg3,
-        }
+        },
+        {
+            title: "Farmer Scheme",
+            description: "A full-stack online marketplace enhancing farmers' earnings through real-time bidding. This platform provides farmers direct market access, enabling them to secure the best prices. Features include user authentication, dynamic product listings, and an admin dashboard. Built on Angular, Java, Spring, Hibernate, and Oracle DB.",
+            imgUrl: projImg2,
+        },
+
     ];
 
     const projects_Data = [

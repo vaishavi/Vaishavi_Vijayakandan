@@ -50,7 +50,7 @@ export const NavBar = () => {
         <Nav.Link href="#about" className="navbar-link">About</Nav.Link>
         <Nav.Link href="#skills" className="navbar-link">Skills</Nav.Link>
         <Nav.Link href="#projects" className="navbar-link">Projects</Nav.Link>
-        <Nav.Link href="/resume_vaishavi_vijayakandan.pdf" className="navbar-link">Resume</Nav.Link>
+        <Nav.Link href="/Resume_FullStack.pdf" className="navbar-link">Resume</Nav.Link>
     </Nav>
     <Nav onSelect={() => setExpanded(false)}>
         <Nav.Link href="#connect" className="navbar-link">

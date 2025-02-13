@@ -9,7 +9,7 @@ import anamoly from "../assets/img/AircraftAnomoly.png";
 import neuralNetwork from "../assets/img/neuralNetworkStudy.png";
 import airBnb from "../assets/img/AirBNB.png"
 import textSum from "../assets/img/textSum.png"
-import portfolio from "../assets/img/portfolioImg.png"
+import portfolio from "../assets/img/portfolioImgLatest.png"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import ProjectCarousel from "./CarouselProjects";

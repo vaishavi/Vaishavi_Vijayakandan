@@ -29,14 +29,21 @@ export const Timeline = () => {
             id: 3,
             title: 'Master of Science in Computer Science',
             institution: 'The George Washington University',
-            timing: "Jan 2023 - Present [ Expected: Dec 2024 ]",
+            timing: "Jan 2023 - Dec 2024",
             category: "Study"
         },
           {
             id: 4,
-            title: 'Software Specialist',
+            title: 'Software Specialist (Part-Time)',
             institution: 'The George Washington University',
-            timing: "Feb 2023 – Present",
+            timing: "Feb 2023 – Dec 2024",
+            category: "Work"
+        },
+        {
+            id: 5,
+            title: 'Full-Stack SDET',
+            institution: 'Copart, Inc.',
+            timing: "Jan 2025 – Present",
             category: "Work"
         }
     ]

@@ -13,7 +13,7 @@ const About = () => {
             <p>
   👋 Hello World!
   <br /><br />
-  I'm a Computer Science grad student at The George Washington University.
+  I recently graduated with a Master's degree in Computer Science from The George Washington University.
   <br /><br />
   My tech journey began at Larsen & Toubro InfoTech, and it really took off at The George Washington University. I've been deep in designing, developing, debugging, deploying, and documenting some cool software solutions, fully immersing myself in the magical software lifecycle.
   <br /><br />

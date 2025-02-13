@@ -1025,6 +1025,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     height: 15rem;
     width: 15rem;
     margin-top: 1rem;
+    position: relative;
+    z-index: 99999999999999999999999;
   }
 
   nav.navbar .navbar-collapse {
